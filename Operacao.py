@@ -28,4 +28,14 @@ class Operacao:
             case "^":
                 return self.esquerda ** self.direita
     
-    def calculaValor()
+    #Define valor de esquerda e direita
+    def setDireita(self,valor=0):
+        self.direita = valor
+    def setEsquerda(self,valor=0):
+        self.esquerda = valor
+
+    #Retorna o valor de esquerda e direita
+    def getDireita(self):
+        return self.direita
+    def getEsquerda(self):
+        return self.esquerda
